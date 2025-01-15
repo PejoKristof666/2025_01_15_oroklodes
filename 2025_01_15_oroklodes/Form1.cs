@@ -24,7 +24,7 @@ namespace _2025_01_15_oroklodes
             this.Controls.Add(oneCar);
             GasCar carTwo = new GasCar() { Top = oneCar.Bottom + 10 };
             this.Controls.Add(carTwo);
-            GasCar carThree = new GasCar() { Top = oneCar.Bottom + 80 };
+            GasCar carThree = new GasCar("CCC-333") { Top = oneCar.Bottom + 80 };
             this.Controls.Add(carThree);
         }
     }
